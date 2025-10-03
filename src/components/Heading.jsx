@@ -1,8 +1,8 @@
 import React from "react";
 
-const Heading = () =>{
+const Heading = (props) =>{
     return(
-        <h1 className="todo-header"> ToDo</h1>
+        <h1 className="todo-header"> {props.head}</h1>
            
         
     )
